@@ -1,8 +1,5 @@
 from django.contrib import admin
 
-from .models import *
+from .models import Task
 
-admin.site.register(ModelsUser)
-admin.site.register(Sending)
-admin.site.register(Delivery)
-admin.site.register(Cargo)
+admin.site.register(Task)
